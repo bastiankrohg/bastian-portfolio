@@ -10,10 +10,10 @@ export function Contact() {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-800/50">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Let's Connect</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Let&apos;s Connect</h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
             Interested in collaboration, internship opportunities, or just want to chat about technology and
-            engineering? I'd love to hear from you!
+            engineering? I&apos;d love to hear from you!
           </p>
         </div>
 
@@ -22,8 +22,8 @@ export function Contact() {
             <div>
               <h3 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">Get in Touch</h3>
               <p className="text-slate-600 dark:text-slate-300 mb-8">
-                Whether you're looking for an embedded systems engineer, interested in international collaboration, or
-                want to discuss innovative projects, I'm always open to new opportunities and connections.
+                Whether you&apos;re looking for an embedded systems engineer, interested in international collaboration, or
+                want to discuss innovative projects, I&apos;m always open to new opportunities and connections.
               </p>
             </div>
 
@@ -63,7 +63,7 @@ export function Contact() {
           <Card className="shadow-lg">
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
-              <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
+              <CardDescription>Fill out the form below and I&apos;ll get back to you as soon as possible.</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-6">

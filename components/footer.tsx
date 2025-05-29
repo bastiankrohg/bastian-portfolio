@@ -56,7 +56,7 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Currently</h4>
             <ul className="space-y-2 text-slate-300">
-              <li>🎓 Master's Student at INSA Toulouse</li>
+              <li>🎓 Master&apos;s Student at INSA Toulouse</li>
               <li>🌏 Exchange at Seoul National University</li>
               <li>💼 Open for internship opportunities</li>
               <li>🚀 Building innovative embedded solutions</li>

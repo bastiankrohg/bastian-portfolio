@@ -15,20 +15,20 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-              I'm Bastian Krohg, a Master's student in <strong>Embedded Systems Engineering</strong> and
+              I&apos;m Bastian Krohg, a Master&apos;s student in <strong>Embedded Systems Engineering</strong> and
               <strong> International Management</strong> at INSA Toulouse and Toulouse School of Management. My journey
               has taken me across continents, including an exciting exchange semester to Seoul National University in
               South Korea.
             </p>
 
             <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-              I'm fluent in Norwegian, English, and French, and currently working on improving my Italian. Proficient in
+              I&apos;m fluent in Norwegian, English, and French, and currently working on improving my Italian. Proficient in
               a series of programming languages and technologies, I love bridging the gap between technical innovation
               and global collaboration.
             </p>
 
             <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-              When I'm not coding or studying, you'll find me exploring new cuisines as an amateur chef and food geek,
+              When I&apos;m not coding or studying, you&apos;ll find me exploring new cuisines as an amateur chef and food geek,
               always curious about the intersection of culture and technology.
             </p>
           </div>
@@ -43,7 +43,7 @@ export function About() {
                   <div>
                     <h3 className="font-semibold text-slate-900 dark:text-white">Education</h3>
                     <p className="text-slate-600 dark:text-slate-300">
-                      Master's in Embedded Systems & International Management
+                      Master&apos;s in Embedded Systems & International Management
                     </p>
                   </div>
                 </div>

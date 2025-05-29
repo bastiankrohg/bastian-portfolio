@@ -10,7 +10,7 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 dark:text-white leading-tight">
-                Hey, I'm{" "}
+                Hey, I&apos;m{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                   @bastiankrohg
                 </span>
