@@ -7,6 +7,15 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
     {
+      title: "SenseInside - Handheld NIR instrument for sub-surface",
+      description:
+        "Development and commercialization efforts on the SenseInside project at SINTEF Digital in the Smart Sensors and Microsystems group.",
+      image: "/senseinside.png?height=400&width=400",
+      technologies: ["NIR Spectroscopy", "Embedded Systems", "UI/UX", "IoT", "Food Research"],
+      liveUrl: "https://prosjektbanken.forskningsradet.no/project/FORISS/341632",
+      date: "2025",
+    },
+    {
       title: "Autonomous Robot Navigation",
       description:
         "Embedded control system for autonomous robot navigation using computer vision and sensor fusion, implemented during Seoul National University exchange.",
@@ -44,7 +53,16 @@ export function Projects() {
         { label: "MetaManager", url: "https://metamanager.bastiankrohg.com" },
         ],
         date: "2024",
-    }
+    },
+    {
+      title: "RC Sailboat Control System",
+      description:
+        "STM32-based control system for an RC sailboat using C and ARM Assembly, integrating accelerometer sensing, heading control, wind direction sensing and automatic rigging adjustments and safety features.",
+      image: "/voilier_stm32.jpeg?height=400&width=400",
+      technologies: ["STM32", "C", "Assembly", "ARM Cortex", "Sailing", "Sensors", "Control Systems"],
+      githubUrl: "https://github.com/bastiankrohg/arduino",
+      date: "2024",
+    },
   ]
   
   return (
