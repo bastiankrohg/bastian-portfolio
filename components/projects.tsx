@@ -21,8 +21,8 @@ export function Projects() {
         "Embedded control system for autonomous robot navigation using computer vision and sensor fusion, implemented during Seoul National University exchange.",
       image: "/rover.jpeg?height=400&width=400",
       technologies: ["Python", "OpenCV", "ROS", "Raspberry Pi", "Machine Learning"],
-      githubUrl: "#",
-      date: "2023",
+      githubUrl: "https://github.com/bastiankrohg/AutoPi",
+      date: "2025",
     },
     {
       title: "IoT Environmental Monitoring System",
@@ -40,7 +40,7 @@ export function Projects() {
       image: "/lerobot2.png", // Replace with a real image
       technologies: ["HuggingFace", "Robotics", "Teleoperation", "Imitation Learning", "Reinforcement Learning"],
       liveUrl: "https://github.com/huggingface/lerobot_hackathon_oct2024", // Optional, or link to a post/hackathon page
-      date: "October 2024",
+      date: "2024",
     },
     {
         title: "Startup Website Proofs of Concept",
@@ -60,8 +60,8 @@ export function Projects() {
         "STM32-based control system for an RC sailboat using C and ARM Assembly, integrating accelerometer sensing, heading control, wind direction sensing and automatic rigging adjustments and safety features.",
       image: "/voilier_stm32.jpeg?height=400&width=400",
       technologies: ["STM32", "C", "Assembly", "ARM Cortex", "Sailing", "Sensors", "Control Systems"],
-      githubUrl: "https://github.com/bastiankrohg/arduino",
-      date: "2024",
+      liveUrl: "https://github.com/INSA-GEI/Voilier",
+      date: "2023",
     },
   ]
   
