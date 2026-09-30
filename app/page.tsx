@@ -1,19 +1,21 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
+import { Research } from "@/components/research"
+import { Footage } from "@/components/footage"
+import { Background } from "@/components/background"
 import { Projects } from "@/components/projects"
-import { Skills } from "@/components/skills"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <div className="min-h-screen bg-white">
       <Header />
       <main>
         <Hero />
-        <About />
-        <Skills />
+        <Research />
+        <Footage />
+        <Background />
         <Projects />
         <Contact />
       </main>
